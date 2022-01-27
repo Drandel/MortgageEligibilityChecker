@@ -1,0 +1,7 @@
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\bin\Debug\MortgageEligibilityChecker.exe.config
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\bin\Debug\MortgageEligibilityChecker.exe
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\bin\Debug\MortgageEligibilityChecker.pdb
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\obj\Debug\MortgageEligibilityChecker.csproj.AssemblyReference.cache
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\obj\Debug\MortgageEligibilityChecker.csproj.CoreCompileInputs.cache
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\obj\Debug\MortgageEligibilityChecker.exe
+C:\Users\Dean\source\repos\MortgageEligibilityChecker\MortgageEligibilityChecker\obj\Debug\MortgageEligibilityChecker.pdb
