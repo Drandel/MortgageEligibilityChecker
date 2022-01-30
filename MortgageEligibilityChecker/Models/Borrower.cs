@@ -5,14 +5,14 @@ namespace MortgageEligibilityChecker.Models
 {
     public class Borrower
     {
-        public string ApplcationId { get; set; }
+        public string ApplicationId { get; set; }
         public string Name { get; set; }
         public int CreditScore { get; set; }
         public List<Income> Incomes { get; set; }
 
         public Borrower(string applicationId, string name, string creditScore)
         {
-            ApplcationId = applicationId;
+            ApplicationId = applicationId;
             Name = name;
             CreditScore = Convert.ToInt32(creditScore);
             Incomes = new List<Income>();

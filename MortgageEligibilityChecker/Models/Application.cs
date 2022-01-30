@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace MortgageEligibilityChecker.Models
 {
@@ -11,6 +10,8 @@ namespace MortgageEligibilityChecker.Models
         public Borrower Borrower { get; set; }
         public Borrower Coborrower { get; set; }
         public List<Liability> Liabilities { get; set; }
+        public int EvaluatedCreditScore { get; set; }
+        public float EvaluatedDtiRatio { get; set; }
 
         public Application(string id)
         {
@@ -18,6 +19,4 @@ namespace MortgageEligibilityChecker.Models
             Liabilities = new List<Liability>();
         }
     }
-
-   
 }

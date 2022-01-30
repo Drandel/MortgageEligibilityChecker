@@ -1,8 +1,5 @@
 ﻿using MortgageEligibilityChecker.Services;
 using System;
-using System.Collections.Generic;
-using System.IO;
-
 
 namespace MortgageEligibilityChecker
 {
@@ -12,10 +9,11 @@ namespace MortgageEligibilityChecker
         {
             if (args.Length > 0)
             {
-                string[] fileContents = File.ReadAllLines(args[0]);
-                if (fileContents.Length > 0)
+                string path = args[0];
+                if (path.Length > 0)
                 {
-                   LoanEligibilityReportGenerator reportGenerator = new LoanEligibilityReportGenerator(fileContents);
+                    LoanEligibilityReportService reportGenerator = new LoanEligibilityReportService(path);
+                    reportGenerator.GenerateReport();
                 }
                 else
                 {

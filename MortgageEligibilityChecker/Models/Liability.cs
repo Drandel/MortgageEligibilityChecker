@@ -11,6 +11,7 @@ namespace MortgageEligibilityChecker.Models
         public string Kind { get; set; }
         public decimal MonthlyPayment { get; set; }
         public decimal OutstandingBalance { get; set; }
+        public int RemainingPayments { get; set; }
 
         public Liability(string applicationId, string names, string kind, string monthlyPayment, string outstandingBalance)
         {
@@ -19,7 +20,7 @@ namespace MortgageEligibilityChecker.Models
             Kind = kind;
             MonthlyPayment = Convert.ToDecimal(monthlyPayment);
             OutstandingBalance = Convert.ToDecimal(outstandingBalance);
+            RemainingPayments = Convert.ToInt32(Math.Ceiling(OutstandingBalance / MonthlyPayment));
         }
-
     }
 }
