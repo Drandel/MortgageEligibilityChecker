@@ -29,11 +29,3 @@ I display this case in the STDOUT as "A#: denied (No Income) DTI: N/A"
 I made the following assumptions:
 - The input files will always separate Applications by a blank line.
 - A given input line will have complete data. (i.e. a LOAN will never be missing a MonthlyPayment or PrincipleAmount, etc.)
-
-
-Thanks for your time to look over my solution, it was a fun puzzle to solve! 
-
-Dean Randel
-Dee.Randel@gmail.com
-1/28/2022
-Lower Mortgage Interview Coding Exercise
