@@ -14,7 +14,10 @@ namespace MortgageEligibilityChecker.Services
             {
                 if (line == "")
                 {
-                    applications.Add(BuildApplication(newApplication));
+                    if(newApplication.Count > 0)
+                    {
+                        applications.Add(BuildApplication(newApplication));
+                    }
                     newApplication.Clear();
                 }
                 else
@@ -22,7 +25,10 @@ namespace MortgageEligibilityChecker.Services
                     newApplication.Add(line);
                 }
             }
-            applications.Add(BuildApplication(newApplication));
+            if (newApplication.Count > 0)
+            {
+                applications.Add(BuildApplication(newApplication));
+            }
 
             return applications;
         }

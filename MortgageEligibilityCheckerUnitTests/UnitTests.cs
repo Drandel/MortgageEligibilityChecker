@@ -174,8 +174,7 @@ namespace MortgageEligibilityCheckerUnitTests
             Assert.AreEqual(ActualLiability.Kind, ExpectedKind);
             Assert.AreEqual(ActualLiability.MonthlyPayment, ExpectedMonthlyPayment);
             Assert.AreEqual(ActualLiability.OutstandingBalance, ExpectedOutstandingBalance);
-            Assert.AreEqual(ActualLiability.RemainingPayments , ExpectedRemaingPayments);
-
+            Assert.AreEqual(ActualLiability.RemainingPayments, ExpectedRemaingPayments);
         }
 
         [TestMethod]
@@ -197,7 +196,6 @@ namespace MortgageEligibilityCheckerUnitTests
             Assert.AreEqual(ActualIncome.Name, ExpectedName);
             Assert.AreEqual(ActualIncome.Kind, ExpectedKind);
             Assert.AreEqual(ActualIncome.MonthlyAmount, ExpectedMonthlyAmount);
-
         }
 
         [TestMethod]
